@@ -22,6 +22,9 @@ public:
 		}
 		return a / b;
 	}
+	static int avarange(int a, int b) {
+		return (a + b) / 2;
+	}
 };
 
 int main() {
@@ -31,4 +34,5 @@ int main() {
 	cout << "Subtract: " << Canculator::subtract(a, b) << endl;
 	cout << "Multiply: " << Canculator::multiply(a, b) << endl;
 	cout << "Divive: " << Canculator::divive(a, b) << endl;
+	cout << "Avarange: " << Canculator::avarange(a, b) << endl;
 }
